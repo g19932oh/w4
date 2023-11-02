@@ -6,7 +6,6 @@ function randomValueFromArray(array){
   const random = Math.floor(Math.random()*array.length);
   return array[random];
 }
-
 const storyText = '津田、華氏94度だったので、:insertx: は散歩に行きました。:inserty: に着いたとき、彼らは数分間恐ろしさに見入り、その後、:insertz: しました。ボブはその全てを見ましたが、驚きませんでした — :insertx: は300ポンドもあるし、日差しも強かったからです。';
 const insertX = ['ウィリー・ザ・ゴブリン', 'ビッグダディ', 'サンタクロース'];
 const insertY = ['スープキッチン', 'ディズニーランド', 'ホワイトハウス'];
